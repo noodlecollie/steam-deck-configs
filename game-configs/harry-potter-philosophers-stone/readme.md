@@ -10,4 +10,4 @@ Beginning with the `Mouse Only` controller config is a good start, and makes the
 
 The game config's references to strafing (ie. `StrafeLeft`, `StrafeRight`, and the `aStrafe` axis) do not seem to function.
 
-`JoyX` and `JoyY` appear to correspond to the Steam Deck's left joystick. `JoyV` is the inverted right joystick axis, and none of the other joystick axes seem to work. Therefore, there is only really one usable analogue joystick available to the game.
+`JoyX` and `JoyY` appear to correspond to the Steam Deck's left joystick. `JoyV` is the inverted right joystick axis, and none of the other joystick axes seem to work. Therefore, there is only really one usable analogue joystick available to the game. This is probably better used for movement, as aim does not appear to respond pleasingly to analogue inputs.
