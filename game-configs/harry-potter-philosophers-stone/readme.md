@@ -9,3 +9,5 @@ Beginning with the `Mouse Only` controller config is a good start, and makes the
 `JoyPovUp/Down/Left/Right` is recognised, but the Steam Deck controller config must set the DPad behaviour to "Directional Pad" and explicitly map each button to "DPad Up/Down/Left/Right".
 
 The game config's references to strafing (ie. `StrafeLeft`, `StrafeRight`, and the `aStrafe` axis) do not seem to function.
+
+`JoyX` and `JoyY` appear to correspond to the Steam Deck's left joystick.
