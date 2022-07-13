@@ -10,11 +10,11 @@ Beginning with the `Mouse Only` controller config is a good start, and makes the
 
 `JoyPovUp/Down/Left/Right` is recognised, but the Steam Deck controller config must set the DPad behaviour to "Directional Pad" and explicitly map each button to "DPad Up/Down/Left/Right".
 
-The game config's references to strafing (ie. `StrafeLeft`, `StrafeRight`, and the `aStrafe` axis) do not seem to function.
-
 `JoyX` and `JoyY` appear to correspond to the Steam Deck's left joystick. `JoyV` is the inverted right joystick axis, and none of the other joystick axes seem to work. Therefore, there is only really one usable analogue joystick available to the game. This is probably better used for movement, as aim does not appear to respond pleasingly to analogue inputs.
 
-The ABXY buttons are also recognised, and must also be mapped to gamepad buttons in the Steam Deck controller config.
+The game config's references to strafing (ie. `StrafeLeft`, `StrafeRight`, and the `aStrafe` axis) do not seem to function in general, but it turns out are required solely for the section where Fluffy is put to sleep with the flute. If strafing is not configured, this section of the game cannot be completed. The current config for strafing was put together after I'd completed the game by temporarily remapping the DPad left/right buttons to the left and right arrow keys (whose default config includes strafing), so whether strafing works properly when mapped to the left joystick is currently untested. To test it properly, I'd have to play through 95% of the game again to get to Fluffy, which I can't be bothered to do right now.
+
+The ABXY buttons are recognised, and must also be mapped to gamepad buttons in the Steam Deck controller config.
 
 * `Joy1` is `A`
 * `Joy2` is `B`
